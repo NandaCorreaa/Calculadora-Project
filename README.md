@@ -1,5 +1,5 @@
 # Calculadora-Project
-Meu primeiro projetinho feito sem JavaScript.
+Meu primeiro projetinho feito em JavaScript.
 
 
 
