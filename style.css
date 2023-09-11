@@ -1,0 +1,77 @@
+body {
+  background-image: url(https://i.ytimg.com/vi/jmj1S7GcAaY/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 85vh;
+  margin: 40px;
+}
+
+h1 {
+  font-size: 50px;
+  padding-top: 25px;
+}
+
+.texto {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.texto p {
+  font-size: 30px;
+}
+
+.input {
+  height: 20vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.input input {
+  height: 8vh;
+  width: 12.5vw;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.botoes {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.botoes input {
+  height: 8vh;
+  width: 7vw;
+  color: white;
+  font-size: 18px;
+  background-color: red;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.botoes input:hover {
+  box-shadow: none;
+}
+
+#resultado {
+  font-size: 30px;
+  word-spacing: 12px;
+}

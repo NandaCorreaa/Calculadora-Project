@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora-Fernanda Corrêa</title>
+  </head>
+  <body>
+    <section>
+      <div class="texto">
+        <h1>Calculando</h1>
+        <p>A matemática é um mundo de infinitas possibilidades!</p>
+      </div>
+      <div class="input">
+        <input type="number" name="primeiroNumero" id="primeiroNumero" />
+        <input type="number" name="segundoNumero" id="segundoNumero" />
+      </div>
+      <div class="botoes">
+        <input type="button" value="Somar" id="somar" onclick="somar()" />
+        <input
+          type="button"
+          value="Subtrair"
+          id="subtrair"
+          onclick="subtrair()"
+        />
+        <input
+          type="button"
+          value="Multiplicar"
+          id="multiplicar"
+          onclick="multiplicar()"
+        />
+        <input type="button" value="Dividir" id="dividir" onclick="dividir()" />
+      </div>
+      <div id="resultado"></div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
